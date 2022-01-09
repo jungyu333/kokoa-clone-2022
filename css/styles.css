@@ -14,3 +14,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: var(--icon-color);
 }
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
