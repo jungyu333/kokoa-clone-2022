@@ -1,0 +1,16 @@
+.screen-header__point {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  position: absolute;
+  right: -6px;
+  top: -7px;
+}
+
+.screen-header__icons:last-child {
+  position: relative;
+}
