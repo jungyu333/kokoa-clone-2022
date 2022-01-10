@@ -29,6 +29,8 @@
   margin-top: 8px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
 }
 
 .user-component__avatar--xl {
@@ -56,4 +58,22 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-component__warning {
+  display: flex;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-left: 4px;
+  border: 1px solid red;
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
 }
